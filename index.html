@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="container">
+
+            <h1>Cliente Fácil</h1>
+            <p>Sua Gestão de Clientes</p>
+
+            <hr>
+
+            <h2>Cadastro de Cliente</h2>
+
+            <div class="form-group">
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="text" id="telefone" placeholder="Telefone">
+                <input type="email" id="email" placeholder="Email">
+            </div>
+
+            <button onclick="cadastrarCliente()">Cadastrar</button>
+
+            <hr>
+
+            <h2>Buscar Cliente</h2>
+
+            <input type="text" id="buscaNome" placeholder="Digite o nome">
+
+            <button onclick="buscarCliente()">Buscar</button>
+
+            <div id="resultadoBusca"></div>
+
+            <hr>
+
+            <h2>Lista de Clientes</h2>
+
+            <button onclick="listarClientes()">Atualizar Lista</button>
+
+            <ul id="listaClientes"></ul>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

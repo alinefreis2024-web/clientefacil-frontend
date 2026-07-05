@@ -17,3 +17,9 @@ O ClienteFácil foi criado para ajudar estes profissionais a centralizar essas i
 Abra o arquivo `index.html` diretamente no navegador.
 
 Não é necessário instalar dependências nem utilizar servidor web.
+
+## Video de Demonstração
+
+link do vídeo:
+<https://drive.google.com/drive/folders/1fOPxb0DhOvkQA8banNUtr0FpJMk_JQWz?usp=sharing>
+
